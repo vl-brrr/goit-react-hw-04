@@ -1,0 +1,42 @@
+.header {
+  background-color: #0367a6;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 1185px;
+  padding: 16px 15px;
+  margin: 0 auto;
+}
+
+.form {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 8px 16px;
+  max-width: 248px;
+  width: 100%;
+  outline: transparent;
+  color: #0367a6;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  height: 34px;
+  width: 34px;
+  align-items: center;
+  cursor: pointer;
+}

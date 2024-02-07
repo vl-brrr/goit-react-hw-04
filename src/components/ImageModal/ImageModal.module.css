@@ -1,0 +1,25 @@
+.img {
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 610px;
+  display: block;
+}
+/* .wrapper {
+  height: 608px;
+} */
+/* .modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  webkitoverflowscrolling: touch;
+  borderradius: 4px;
+  outline: none;
+  padding: none;
+} */
