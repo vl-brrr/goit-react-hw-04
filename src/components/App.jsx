@@ -46,6 +46,7 @@ function App() {
       try {
         setLoading(true);
         setError(false);
+        setLastPage(false);
         const fetchedData = await fetchPhotos(query.split('/')[1], page);
         setPhotos(prevPhotos => [...prevPhotos, ...fetchedData.results]);
         if (page === fetchedData.total_pages) {
